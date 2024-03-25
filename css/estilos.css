@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 28px;
+    color: #242E52;
+    font-size: 13px;
+    font-weight: 500;
+    
+}
+
+header nav ul li:hover {
+    color: rgba(36, 46, 82, 0.6);
+    cursor: pointer;
+}
+
+.botones {
+    border: none;
+    background-color: #8B48BF;
+    padding: 13px 40px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    width: 134px;
+}
+
+.botones:hover {
+    background-color: rgba(139, 72, 191, 0.7);
+    cursor: pointer;
+}
+
+.sombra-botones {
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+header div.h-mobile {
+    display: none;
+}
+
+section.container1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 5%;
+    flex-wrap: wrap;
+}
+
+section.container1 div {
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+    text-align: right;
+    justify-content: center;
+    gap: 35px;
+    
+}
+
+section.container1 div h2 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    color: #232C50;
+    letter-spacing: -0.2rem;
+}
+
+section.container1 div button {
+    margin-left: 72%;
+}
+
+section.container2 {
+    display: flex;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+
+section.container2 h2 {
+    width: 50%;
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding-left: 13%;
+}
+
+section.container2 p {
+    width: 50%;
+    line-height: 1.5rem;
+    padding-right: 17%;
+}
+
+section.container3 {
+    background-color: #FAFAFA;
+    padding: 40px 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    
+}
+
+div.container3-box1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 50px;
+}
+
+div.container3-box2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.box-styles div {
+    width: 550px;
+}
+
+div.box-styles div::after{
+    content: "Donec elit est, mattis lacinia arcu eu, efficitur consequat augue. Nam tellus sem, tempus pellentesque egestas vitae, efficitur vel nulla. Etiam vel orci rutrum, placerat quam eget, consequat dolor.";
+    color: #B3B2B7;
+    font-size: 16.3px;
+    line-height: 1.6rem;
+    padding-top: 18px;
+    padding-left: 97px;
+    display: block;
+}
+
+
+div.box-styles div h4 span {
+    background-color: #8B48BF;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin-right: 23px;
+   
+}
+
+section.container4 {
+    margin: 100px 0 180px;
+}
+
+section.container4 h3{
+    margin-bottom: 110px;
+    text-align: center;
+    color: #242E52;
+    font-size: 2.45rem;
+    font-weight: 700;
+}
+section div.container4-art {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+section div article {
+    width: 427px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section div article div.blank-space {
+    height: 50px;
+    
+}
+
+section div article img {
+    position: absolute;
+    top: -37px;
+}
+
+section div article div.container4-art-txt {
+    background-color: #FAFAFA;
+    padding-top: 60px;
+}
+
+section div article div.container4-art-txt h4 {
+    text-align: center;
+    color: #3F4868;
+}
+
+section div article div.container4-art-txt h4::after {
+    content: "Etiam fermentum, nulla eget gravida cursus, purus lectus feugiat mauris, ut suscipit massa ipsum eu neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. ";
+    text-align: center;
+    color: #B9B9C1;
+    font-weight: 400;
+    line-height: 1.57rem;
+    padding: 7% 3%;
+    display: block;
+}
+
+section.container4 button {
+    margin: 55px calc(50% - 67px) 0;
+}
+
+section.container5 {
+    display: flex;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    
+}
+
+section.container5 h2 {
+    letter-spacing: -0.01rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: 165px;
+    width: 420px;
+
+    
+}
+
+.button-container5 {
+    border: none;
+    color: #8B48BF;
+    padding: 13px 40px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    background-color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 210px;
+    
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E1E26;
+    color: #FFFFFF;
+    padding: 55px 0;
+}
+
+footer > p {
+    display: none;
+}
+
+footer section.f-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 70px;
+}
+
+footer section.f-container1 img {
+    width: 107.68px;
+}
+
+footer section.f-container1 div{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+footer section.f-container2{
+    width: 393px;
+}
+
+footer section.f-container2 nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section.f-container2 nav ul {
+    list-style: none;
+    font-weight: 400;
+    line-height: 39px;
+}
+
+footer section.f-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+footer section.f-container3 p {
+    color: #8C8C94;
+    font-size: 0.78rem;
+    font-weight: 500;
+}
+
+input {
+   width: 201px; 
+   height: 44px;
+   border-radius: 50px;
+   margin-right: 9px;
+}
+input::placeholder{
+    padding-left: 10px;
+    color: #A0A0A0;
+    font-size: 13.18px;
+    font-weight: 500;
+}
+
+button.f-boton {
+    border: none;
+    background-color: #8B48BF;
+    padding: 13px 23px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+section.container2 p.p-mobile {
+display: none;
+}
+
+@media screen and (max-width:480px){
+    
+    header {
+        justify-content: space-between;
+    }
+    header nav {
+        display: none;
+    }
+
+    header button {
+        display: none;
+    }
+
+    header div.h-mobile {
+        display: block;
+        padding-right: 56px;
+    }
+
+    div.h-mobile img{
+        width: 60px;
+        
+    }
+
+    header img {
+        width: 107.68px;
+        margin-left: 56px;
+    }
+
+    section.container1 {
+        flex-direction: column;
+        justify-content: flex-end;
+        margin: 5% 40px;
+        gap: 50px;
+    }
+
+    .container1 img {
+        width: 400px;
+    }
+
+    section.container1 div {
+        width: 100%;
+        margin-top: 50px;
+        gap: 28px;
+    }
+
+    section.container1 div button {
+        margin-left: 66%;
+    }
+
+
+    section.container2 {
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        padding: 40px 20px;
+        background-color: #3CDDF3;
+        margin-top: 40px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        
+    }
+    
+
+    section.container2 h2 {
+        width: 100%;
+        padding: 0;
+    }
+
+    section.container2 p {
+        display: none;
+    }
+
+    section.container2 p.p-mobile {
+        display: block;
+        width: 100%;
+        padding: 0;
+        line-height: 1.5rem;
+    }
+
+    div.box-styles div {
+        width: 100%;
+    }
+
+    section.container3 {
+        background-color: #FFFFFF;
+        padding: 0 0 0 35px;
+        gap: 30px;
+        margin-top: 65px;
+    }
+
+    div.container3-box1 {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    div.box-styles div::after {
+        padding: 31px 20px 0 10px;
+    }
+
+    div.box-styles div h4 {
+        background-color: rgba(139, 72, 191, 0.30);
+        padding: 10px 0;
+        border-radius: 50px 0px 0px 50px;
+    }
+
+    div.box-styles div h4 span {
+        margin-right: 18px;
+    }
+
+    div.container3-box2 {
+        padding-top: 0;
+    }
+    div.container3-box2 div{
+        width: 446px;
+    }
+
+    section.container4 {
+        margin: 60px 0px 58px;
+    }
+
+    article.mobile {
+        display: none;
+    }
+
+    section.container5 {
+        flex-direction: column;
+        padding: 40px 93px;
+        align-items: center;
+        gap: 50px;
+        background-color: #3CDDF3;
+    }
+
+
+    .button-container5 {
+        margin: 0;
+        background-color: #232C50;
+        color: #FFFFFF;
+    }
+
+    section.container5 h2 {
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        letter-spacing: -0.2px;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        gap: 25px;
+        padding: 50px 0px;
+    }
+
+    footer section.f-container1 {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 25px;
+    }
+
+    footer section.f-container1 div {
+        width: 100%;
+        justify-content: space-around;
+        font-size: 20px;
+        padding: 10px 50px;
+    }
+
+    footer section.f-container1 img {
+        padding: 10px;
+    }
+
+    footer section.f-container3 {
+        align-items: center;
+    }
+
+    footer section.f-container3 p {
+        display: none;
+    }
+
+    form {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    input {
+        width: 308px;
+    }
+
+    footer section.f-container2 {
+        width: 100%;
+    }
+
+    footer section.f-container2 nav {
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    footer > p {
+        display: block;
+        color: #8C8C94;
+        font-size: 0.78rem;
+        font-weight: 500;
+        text-align: center;
+        padding: 10px;
+    }
+
+}
